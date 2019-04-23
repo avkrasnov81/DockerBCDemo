@@ -10,3 +10,6 @@ Docker BC Demo
 Список образов BC:
 https://mcr.microsoft.com/v2/businesscentral/onprem/tags/list
 
+1234567
+12
+21
