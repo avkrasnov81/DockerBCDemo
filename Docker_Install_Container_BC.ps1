@@ -12,7 +12,8 @@ $Password = ConvertTo-SecureString -String $pass -AsPlainText -Force
 $credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $env:USERNAME, $Password
 
 New-NavContainer -containerName $MyContainer `
-    -accept_eula -updatehosts `
+    -accept_eula `
+    -updatehosts `
     -auth NavUserPassword -Credential $credential `
     -imageName $ImageName `
     -licenseFile $LicenseFile `
